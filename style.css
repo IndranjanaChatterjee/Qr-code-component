@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Agdasima:wght@700&family=Belanosima:wght@600&family=Fraunces:wght@400;700&family=Montserrat:wght@400;500;600&family=Outfit:wght@200;400;700&family=Playfair:wght@600&family=Raleway&family=Roboto+Slab&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  padding: 2rem;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: hsl(212, 45%, 89%);
+  
+  font-family: "Outfit", sans-serif;
+  
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: hsl(0, 0%, 100%);
+  width: 19rem;
+  height: 29rem;
+  padding: 1rem;
+  border-radius: 0.7rem;
+}
+.container .img {
+  height: 17rem;
+  width: 17rem;
+  background-image: url("./images/image-qr-code.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border-radius: 0.7rem;
+}
+.container .img #qr {
+  height: 50%;
+  width: 50%;
+}
+.container h1 {
+  margin: 1.5rem ;
+  font-size: 1.4rem;
+  text-align: center;
+  width: 100%;
+  color:hsl(218, 44%, 22%);
+  
+}
+.container p{
+  color:hsl(220, 15%, 55%);
+  margin:0rem 0.5rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
